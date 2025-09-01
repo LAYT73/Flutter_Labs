@@ -1,0 +1,12 @@
+{
+  "appTitle": "Поиск книг",
+  "searchHint": "Введите название или автора...",
+  "searchButton": "Поиск",
+  "noResults": "Ничего не найдено",
+  "favorites": "Избранное",
+  "pullToRefresh": "Обновить список",
+  "error": "Ошибка",
+  "tryAgain": "Повторить",
+  "noFavorites": "Нет избранных книг",
+  "enterQuery": "Введите запрос"
+}

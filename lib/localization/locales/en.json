@@ -1,0 +1,12 @@
+{
+  "appTitle": "Book Search",
+  "searchHint": "Enter title or author...",
+  "searchButton": "Search",
+  "noResults": "No results found",
+  "favorites": "Favorites",
+  "pullToRefresh": "Pull to refresh",
+  "error": "Error",
+  "tryAgain": "Try again",
+  "noFavorites": "No favorite books",
+  "enterQuery": "Enter a query"
+}
