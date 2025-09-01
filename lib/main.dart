@@ -60,7 +60,7 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Лабораторная 3 — Список карточек'),
+        title: const Text('Шипилов Никита Сергеевич ПИбд-31'),
       ),
       body: ListView.builder(
         padding: const EdgeInsets.all(16),
