@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
+import 'screens/search_screen.dart';
 
 void main() {
-  runApp(const TravelApp());
+  runApp(const BookSearchApp());
 }
 
-class TravelApp extends StatelessWidget {
-  const TravelApp({super.key});
+class BookSearchApp extends StatelessWidget {
+  const BookSearchApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Лабораторная 4',
+      title: 'Лабораторная 5',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.indigo,
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const SearchScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
