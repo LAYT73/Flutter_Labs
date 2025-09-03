@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../dto/book_dto.dart';
+import 'package:lab_flutter/models/book.dart';
 import '../repositories/book_repository.dart';
 import '../services/book_service_impl.dart';
 import '../widgets/book_item.dart';
@@ -15,7 +15,7 @@ class _SearchScreenState extends State<SearchScreen> {
   final TextEditingController _controller = TextEditingController();
   final BookRepository _repository = BookRepository(BookServiceImpl());
 
-  List<BookDto> _books = [];
+  List<Book> _books = [];
   bool _loading = false;
   String _error = '';
 

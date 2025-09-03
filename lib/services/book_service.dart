@@ -1,5 +1,5 @@
-import '../dto/book_dto.dart';
+import '../models/book.dart';
 
 abstract class BookService {
-  Future<List<BookDto>> searchBooks(String query);
+  Future<List<Book>> searchBooks(String query);
 }

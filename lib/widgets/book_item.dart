@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../dto/book_dto.dart';
+import 'package:lab_flutter/models/book.dart';
 
 class BookItem extends StatelessWidget {
-  final BookDto book;
+  final Book book;
 
   const BookItem({super.key, required this.book});
 
@@ -15,7 +15,7 @@ class BookItem extends StatelessWidget {
         leading: ClipRRect(
           borderRadius: BorderRadius.circular(8),
           child: Image.network(
-            book.coverUrl,
+            book.coverUrl ?? "",
             width: 60,
             height: 80,
             fit: BoxFit.cover,
