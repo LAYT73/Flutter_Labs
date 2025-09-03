@@ -44,11 +44,10 @@ class AppDatabase extends _$AppDatabase {
   }
 }
 
-// ✅ Правильно: передаём File, а не String
 LazyDatabase _openConnection() {
   return LazyDatabase(() async {
     final dbFolder = await getApplicationDocumentsDirectory();
     final file = p.join(dbFolder.path, 'db.sqlite');
-    return NativeDatabase(File(file)); // ← Оберни в File
+    return NativeDatabase(File(file));
   });
 }

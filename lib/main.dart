@@ -20,7 +20,7 @@ class BookSearchApp extends StatefulWidget {
 }
 
 class _BookSearchAppState extends State<BookSearchApp> {
-  Locale _locale = const Locale('ru'); // текущий язык
+  Locale _locale = const Locale('ru');
 
   void setLocale(Locale locale) {
     setState(() {
